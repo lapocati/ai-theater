@@ -7,10 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'deep-purple': '#6B21A8',
-        'dark-blue': '#1E3A8A',
-        'midnight': '#0F172A',
-        'midnight-light': '#1E293B',
+        'meituan-orange': '#FF6B35',
+        'meituan-navy': '#1A1A2E',
+        'meituan-navy-light': '#252542',
+        'success-green': '#10B981',
+        'error-red': '#EF4444',
+        'warning-amber': '#F59E0B',
+        'info-blue': '#3B82F6',
       },
       screens: {
         'xs': '320px',
@@ -18,11 +21,6 @@ export default {
         'md': '640px',
         'lg': '1024px',
         'xl': '1280px',
-      },
-      fontSize: {
-        'xs-mobile': '11px',
-        'sm-mobile': '13px',
-        'base-mobile': '15px',
       },
     },
   },

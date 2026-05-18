@@ -2,7 +2,7 @@
 
 > 基于 React + TypeScript 的沉浸式互动体验项目
 
-## 🎯 项目概述
+## 🎯 项目介绍
 
 这是一个《甄嬛传》滴血验亲名场面的沉浸式剧场网页应用。通过视频播放与角色对话系统的结合，让用户身临其境感受经典剧情，体验与剧中人物实时互动的乐趣。
 
@@ -44,7 +44,7 @@ ai-theater/
 └── tsconfig.json            # TypeScript 配置
 ```
 
-## 🚀 快速开始
+## 🚀 启动步骤
 
 ### 环境要求
 
@@ -54,16 +54,16 @@ ai-theater/
 ### 安装与运行
 
 ```bash
-# 安装依赖
+# 1. 安装依赖
 npm install
 
-# 启动开发服务器
+# 2. 启动开发服务器
 npm run dev
 
-# 构建生产版本
+# 3. 构建生产版本
 npm run build
 
-# 预览生产版本
+# 4. 预览生产版本
 npm run preview
 ```
 
@@ -98,51 +98,6 @@ start.bat
 | 血融惊变 | 15-45秒 | 滴血验亲，血相融引发轩然大波 |
 | 反击时刻 | 45秒+ | 甄嬛冷静反击，揭露阴谋 |
 
-## 🎨 角色主题色
-
-| 角色 | 主色 | 代表含义 |
-|------|------|----------|
-| 甄嬛 | 深红 (#8B0000) | 智慧与坚韧 |
-| 皇上 | 棕色 (#8B4513) | 帝王威严 |
-| 安陵容 | 紫色 (#6B5B95) | 神秘与自卑 |
-
-## 🔧 配置说明
-
-### 添加新角色
-
-在 `App.tsx` 中添加角色配置：
-
-```typescript
-const characters: Character[] = [
-  {
-    id: 'characterId',
-    name: '角色名',
-    title: '角色封号',
-    theme: {
-      primary: '#主色',
-      secondary: '#副色',
-      accent: '#强调色',
-      glow: 'rgba(光晕色)',
-    },
-    personality: '性格描述',
-    avatar: '👤',
-  },
-];
-```
-
-### 添加心理节点
-
-```typescript
-const psychologyTimeline: PsychologyNode[] = [
-  {
-    time: 5,                    // 触发时间（秒）
-    characterId: 'zhenhuan',    // 角色ID
-    type: 'intro',              // intro/climax/twist
-    content: '心理独白内容',
-  },
-];
-```
-
 ## 📦 部署
 
 ### GitHub Pages 部署
@@ -164,7 +119,3 @@ MIT License
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
-
----
-
-> 📌 详细技术文档请参考 [AI_THEATER_DOCUMENTATION.md](file:///d:/jiajiao/trae/ai-theater/AI_THEATER_DOCUMENTATION.md)
